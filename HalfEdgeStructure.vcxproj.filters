@@ -39,6 +39,12 @@
     <ClCompile Include="Src\Point3D.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Src\GeoObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Body.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\Vertex.h">
@@ -57,6 +63,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Include\Point3D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GeoObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Body.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

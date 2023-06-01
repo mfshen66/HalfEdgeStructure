@@ -2,9 +2,16 @@
 
 Point3D::Point3D()
 {
-	Coord[0] = 0.;
-	Coord[1] = 0.;
-	Coord[2] = 0.;
+	_Coord_[0] = 0.;
+	_Coord_[1] = 0.;
+	_Coord_[2] = 0.;
+}
+
+Point3D::Point3D(double iX, double iY, double iZ)
+{
+	_Coord_[0] = iX;
+	_Coord_[1] = iY;
+	_Coord_[2] = iZ;
 }
 
 Point3D::~Point3D()

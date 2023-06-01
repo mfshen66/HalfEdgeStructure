@@ -14,6 +14,8 @@ public:
 	HalfEdge* _Support_;
 	Point3D* _Point_;
 
+	Point3D* GetPoint();
+	void SetPoint(Point3D* iPoint);
 private:
 
 };

@@ -21,16 +21,20 @@
   <ItemGroup>
     <ClCompile Include="Include\CommonMacDefinition.h" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Src\Body.cpp" />
     <ClCompile Include="Src\Edge.cpp" />
     <ClCompile Include="Src\Face.cpp" />
+    <ClCompile Include="Src\GeoObject.cpp" />
     <ClCompile Include="Src\HalfEdge.cpp" />
     <ClCompile Include="Src\Point3D.cpp" />
     <ClCompile Include="Src\Topology.cpp" />
     <ClCompile Include="Src\Vertex.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Include\Body.h" />
     <ClInclude Include="Include\Edge.h" />
     <ClInclude Include="Include\Face.h" />
+    <ClInclude Include="Include\GeoObject.h" />
     <ClInclude Include="Include\HalfEdge.h" />
     <ClInclude Include="Include\Point3D.h" />
     <ClInclude Include="Include\Topology.h" />

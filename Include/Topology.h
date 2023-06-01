@@ -5,14 +5,13 @@ class Vertex;
 class HalfEdge;
 class Edge;
 class Face;
+class GeoObject;
 
 class Topology
 {
 public:
 	Topology();
 	virtual ~Topology() = 0;
-
-	virtual void GetGeometry() = 0;
 
 private:
 
